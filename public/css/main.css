@@ -1,0 +1,448 @@
+/* Navbar */
+body{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	overflow-x: hidden;
+}
+
+
+
+/* Navbar*/
+.navbar {
+	position: relative;
+	z-index: 1;
+}
+
+.navbar-brand {
+	font-family:  Viga;
+	font-size: 32px;
+}
+
+
+
+/* button */
+.tombol{
+	background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px 12px;
+	cursor: pointer;
+}
+
+.tombol:hover{
+    background-color: #457698;
+    color: #f1faee;
+    text-decoration: none;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+	background-image:  url("/images/bg.jpeg");
+	background-size: cover;
+	height: 540px;
+	text-align: center;
+	position: relative;
+}
+
+.jumbotron .container {
+	position: relative;
+	z-index: 1;
+}
+
+.jumbotron::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%; 
+	background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.3));
+	position: absolute;
+	bottom: 0;
+}
+
+.jumbotron .display-4 {
+	color: rgba(255,255,255,0.9);
+	margin-top: 150px;
+	font-weight: 200;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	font-size: 40px;
+}
+
+.jumbotron .display-4 span {
+	font-weight: 500;
+}
+
+.jumbotron a{
+	margin-top: 70px;
+}
+
+
+
+/*About*/
+.about {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.about .gb {
+	position: relative;
+	z-index: 1;
+}
+
+.about .gb::after {
+	content: '';
+	display: block;
+	width: 376px;
+	height: 376px; 
+	background-image: linear-gradient(to top, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+	position: absolute;
+	bottom: 0;
+	margin-left: 55px;
+}
+
+.about img {
+	text-align: center;
+	width: 376px;
+	height: 376px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0,7);
+}
+
+.about h3 {
+	letter-spacing: .2rem;
+	font-size: 48px;
+	font-weight: 250;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+.about h3 span {
+	font-weight: 500;
+}
+
+.about p{
+	font-size: 20px;
+	color: rgba(0,0,0,0.5);
+	font-weight: 380;
+	margin: 25px 0;
+}
+
+
+
+/*Guideline*/
+.info-panel p{
+	color: rgba(0,0,0,0.5) !important;
+}
+.info-panel .col-lg h3 {
+	letter-spacing: .2rem;
+	font-size:48px;
+	font-weight: 250;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.info-panel .col-lg h3 span {
+	font-weight: 500;
+}
+
+.info-panel .col-lg p{
+	font-size: 20px;
+	font-weight: 380;
+	margin: 25px 0 0 0;
+	text-align: center;
+	height: 50px;
+}
+
+.info-panel .col-md{
+	margin-bottom: 50px;
+	border-radius: 12px;
+	background-color: white;
+	padding: 5px;
+	margin-right: 20px;
+}
+
+.info-panel img {
+	margin-top: 50px;
+	width: 19%;
+	height: 30%;
+	margin-right: auto;
+	display: block;
+	margin-left: auto;
+}
+
+.info-panel h4 {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 5px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.info-panel .col-md p {
+	font-size: 16px;
+	margin-top: -5px;
+	font-weight: 400;
+	padding-top: 10px;
+	display: block;
+	text-align: center;
+}
+
+
+
+/*Contact*/
+.contact{
+	margin-top: 100px;
+}
+
+.contact .col-lg {
+	background-color: #f3f5f7;
+	max-width: 100%;
+	position: relative;
+	padding: 30px 50px 10px 50px;
+}
+	/*class form-group*/
+.contact .form-group{
+	margin-left: 20px;
+	justify-content: center;
+}
+
+.contact .tombol{
+	margin-bottom: 30px;
+	float: left;
+}
+
+.contact .form-control {
+	border-color: transparent;
+	border-bottom-color: rgba(0,33,71,0.2);
+	background: transparent;
+}
+
+.contact h3 {
+	font-size:48px;
+	font-weight: 250;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.contact h3 span {
+	font-weight: 500;
+}
+
+.contact p {
+	text-align: center;
+	font-size: 16px;
+	color: rgba(0,0,0,0.5)
+}
+	/*class contact-info*/
+.contact .contact-info{
+	padding-left: 50px;
+}
+.contact .contact-info h2 {
+	letter-spacing: .1rem;
+	font-size:26px;
+	font-weight: 250;
+	text-transform: uppercase;
+	padding-bottom: 15px;}
+
+.contact h2 span{
+	font-weight: 400;
+}
+
+.contact .contact-info p{
+	font-size: 14px;
+	text-align: left;
+	margin-left: 50px;
+}
+
+.contact  img{
+	float: left;
+	margin-top: 5px;
+	background-color: #f3f5f7;
+}
+
+.contact ul {
+	position: relative;
+	display: inline-table;
+
+	padding: 0 80px;
+}
+
+.contact ul li {
+	float: left;
+	background: transparent;
+}
+.contact  li{
+	border-style: none;
+}
+
+.contact li img {
+	width: 25px;
+	height: 25px;
+}
+
+
+/*Sign in*/
+.signin .tombol::after{
+	display: none;
+	visibility: hidden;
+}
+.signin .md-lg{
+	width: 700px !important;
+}
+.signin .model-content{
+	background-color: white;
+}
+
+.signin h4{
+	text-align: center;
+}
+
+
+/*Footer*/
+.footer {
+	background-color: #1d3557;
+	color: rgba(255,255,255,0.5);
+	text-align: center;
+	width: auto;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.footer p {
+	margin-top: 9px;
+	font-size: 13px;
+}
+
+
+
+
+
+/* Desktop vers */
+@media (min-width: 992px) { 
+
+	/*Navbar*/
+	.navbar-brand, .nav-link{
+		color: #f1faee !important;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0,7);
+	}
+
+	.nav-link {
+		text-transform: uppercase;
+		margin-right: 30px;
+	} 
+
+	.nav-link:hover::after {
+		content: ' ';
+		display: block;
+		border-bottom: 3px solid #e63946;
+		width: 50%;
+		margin: auto;
+		padding-bottom: 5px;
+		margin-bottom: -8px;
+	}
+
+
+
+	/*jumbotron*/
+	.jumbotron {
+		margin-top: -75px;
+		height: 740px;
+	}
+
+	.jumbotron .display-4 {
+		letter-spacing: .1rem;
+		font-size: 62px;
+		margin-top: 230px;
+	}
+
+	.jumbotron a{
+		display: none;
+	}
+
+
+
+	/*about*/
+	.about {
+		text-align: left;
+	}
+
+	.about h3{
+		text-align: right;
+	}
+
+	.about p {
+		text-align: right;
+		margin-left: 400px;
+	}
+
+	.about img{
+		margin-left: 75px;
+		text-align: left;
+	}
+
+	.about .gb::after{
+		margin-left: 75px;
+	}
+
+	/*guideline*/
+	.info-panel img {
+		width: 27%;
+		height: 40%;
+		margin-right: auto;
+		margin-top: 30px;
+		display: block;
+		margin-left: auto;
+	}
+
+	.info-panel .col-md p{
+		text-align: center;
+	}
+
+
+
+	/*contac*/
+	.contact .form-group {
+		padding-right: 125px;
+		padding-left: 75px;
+	}
+
+	.contact .form-control {
+		border-bottom-color: rgba(0,33,71,0.2);
+	}
+
+	.contact h3{
+		letter-spacing: .1rem;
+		text-align: left;
+		font-size: 48px;
+		margin-bottom: 20px;
+	}
+
+	.contact .contact-info{
+		background: transparent;
+		max-width: 100%;
+		position: relative;
+		float: right;
+		text-align: left;
+		margin-top: 60px;
+		padding-left: 55px;
+	}
+
+
+	.contact .contact-info h2{
+		margin-top: 0;
+		margin-bottom: 10px;
+		text-align: left;
+		margin-left: 10px;
+	}
+
+	.contact .contact-info ul{
+		padding: 0;
+	}
+
+}
